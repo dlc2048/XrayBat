@@ -1,0 +1,1 @@
+/usr/local/fluka/bin/rfluka -M 1 run.inp

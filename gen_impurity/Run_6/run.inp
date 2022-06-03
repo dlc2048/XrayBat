@@ -1,0 +1,409 @@
+TITLE
+
+* Set the defaults for precision simulations
+DEFAULTS                                                              EM-CASCA
+* Define the beam characteristics
+BEAM          -7E-05                          40.0      40.0          PHOTON
+* Define the beam position
+BEAMPOS                               -5
+ROT-DEFI                        1.14E+02 -5.55E+00 -1.11E+00          GLOB
+GEOBEGIN                                                              COMBNAME
+    0    0          
+* Black body
+SPH blkbody    0.0 0.0 0.0 100000.0
+* Void sphere
+SPH void       0.0 0.0 0.0 10000.0
+$start_transform GLOB
+RPP pbody      -5 5 -15 15 -0.5 0.5
+RPP cavity     -4.95 4.95 -14.95 14.95 -0.45 0.45
+RCC hole       -1.48E+00 -1.14E+01 -4.23E-03 0.0 0.0 2.57E-02 6.17E-01
+RPP ab01       -4.5 4.5 -13.25 13.25 -4.4654E-01 -4.3210E-01
+RPP af01       -4.5 4.5 -13.25 13.25 -4.3937E-01 -4.3927E-01
+RPP ab02       -4.5 4.5 -13.25 13.25 -4.1515E-01 -4.0072E-01
+RPP af02       -4.5 4.5 -13.25 13.25 -4.0799E-01 -4.0789E-01
+RPP ab03       -4.5 4.5 -13.25 13.25 -3.8378E-01 -3.6934E-01
+RPP af03       -4.5 4.5 -13.25 13.25 -3.7661E-01 -3.7651E-01
+RPP ab04       -4.5 4.5 -13.25 13.25 -3.5240E-01 -3.3796E-01
+RPP af04       -4.5 4.5 -13.25 13.25 -3.4523E-01 -3.4513E-01
+RPP ab05       -4.5 4.5 -13.25 13.25 -3.2101E-01 -3.0658E-01
+RPP af05       -4.5 4.5 -13.25 13.25 -3.1385E-01 -3.1375E-01
+RPP ab06       -4.5 4.5 -13.25 13.25 -2.8964E-01 -2.7520E-01
+RPP af06       -4.5 4.5 -13.25 13.25 -2.8247E-01 -2.8237E-01
+RPP ab07       -4.5 4.5 -13.25 13.25 -2.5826E-01 -2.4382E-01
+RPP af07       -4.5 4.5 -13.25 13.25 -2.5109E-01 -2.5099E-01
+RPP ab08       -4.5 4.5 -13.25 13.25 -2.2687E-01 -2.1244E-01
+RPP af08       -4.5 4.5 -13.25 13.25 -2.1971E-01 -2.1961E-01
+RPP ab09       -4.5 4.5 -13.25 13.25 -1.9550E-01 -1.8107E-01
+RPP af09       -4.5 4.5 -13.25 13.25 -1.8833E-01 -1.8823E-01
+RPP ab10       -4.5 4.5 -13.25 13.25 -1.6411E-01 -1.4968E-01
+RPP af10       -4.5 4.5 -13.25 13.25 -1.5695E-01 -1.5685E-01
+RPP ab11       -4.5 4.5 -13.25 13.25 -1.3273E-01 -1.1830E-01
+RPP af11       -4.5 4.5 -13.25 13.25 -1.2557E-01 -1.2547E-01
+RPP ab12       -4.5 4.5 -13.25 13.25 -1.0136E-01 -8.6925E-02
+RPP af12       -4.5 4.5 -13.25 13.25 -9.4190E-02 -9.4090E-02
+RPP ab13       -4.5 4.5 -13.25 13.25 -6.9975E-02 -5.5545E-02
+RPP af13       -4.5 4.5 -13.25 13.25 -6.2810E-02 -6.2710E-02
+RPP ab14       -4.5 4.5 -13.25 13.25 -3.8595E-02 -2.4165E-02
+RPP af14       -4.5 4.5 -13.25 13.25 -3.1430E-02 -3.1330E-02
+RPP ab15       -4.5 4.5 -13.25 13.25 -7.2150E-03 7.2150E-03
+RPP af15       -4.5 4.5 -13.25 13.25 -5.0000E-05 5.0000E-05
+RPP ab16       -4.5 4.5 -13.25 13.25 2.4165E-02 3.8595E-02
+RPP af16       -4.5 4.5 -13.25 13.25 3.1330E-02 3.1430E-02
+RPP ab17       -4.5 4.5 -13.25 13.25 5.5545E-02 6.9975E-02
+RPP af17       -4.5 4.5 -13.25 13.25 6.2710E-02 6.2810E-02
+RPP ab18       -4.5 4.5 -13.25 13.25 8.6925E-02 1.0136E-01
+RPP af18       -4.5 4.5 -13.25 13.25 9.4090E-02 9.4190E-02
+RPP ab19       -4.5 4.5 -13.25 13.25 1.1830E-01 1.3273E-01
+RPP af19       -4.5 4.5 -13.25 13.25 1.2547E-01 1.2557E-01
+RPP ab20       -4.5 4.5 -13.25 13.25 1.4968E-01 1.6411E-01
+RPP af20       -4.5 4.5 -13.25 13.25 1.5685E-01 1.5695E-01
+RPP ab21       -4.5 4.5 -13.25 13.25 1.8107E-01 1.9550E-01
+RPP af21       -4.5 4.5 -13.25 13.25 1.8823E-01 1.8833E-01
+RPP ab22       -4.5 4.5 -13.25 13.25 2.1244E-01 2.2687E-01
+RPP af22       -4.5 4.5 -13.25 13.25 2.1961E-01 2.1971E-01
+RPP ab23       -4.5 4.5 -13.25 13.25 2.4382E-01 2.5826E-01
+RPP af23       -4.5 4.5 -13.25 13.25 2.5099E-01 2.5109E-01
+RPP ab24       -4.5 4.5 -13.25 13.25 2.7520E-01 2.8964E-01
+RPP af24       -4.5 4.5 -13.25 13.25 2.8237E-01 2.8247E-01
+RPP ab25       -4.5 4.5 -13.25 13.25 3.0658E-01 3.2101E-01
+RPP af25       -4.5 4.5 -13.25 13.25 3.1375E-01 3.1385E-01
+RPP ab26       -4.5 4.5 -13.25 13.25 3.3796E-01 3.5240E-01
+RPP af26       -4.5 4.5 -13.25 13.25 3.4513E-01 3.4523E-01
+RPP ab27       -4.5 4.5 -13.25 13.25 3.6934E-01 3.8378E-01
+RPP af27       -4.5 4.5 -13.25 13.25 3.7651E-01 3.7661E-01
+RPP ab28       -4.5 4.5 -13.25 13.25 4.0072E-01 4.1515E-01
+RPP af28       -4.5 4.5 -13.25 13.25 4.0789E-01 4.0799E-01
+RPP ab29       -4.5 4.5 -13.25 13.25 4.3210E-01 4.4654E-01
+RPP af29       -4.5 4.5 -13.25 13.25 4.3927E-01 4.3937E-01
+RPP cb01       -4.5 4.5 -13.25 13.25 -4.3080E-01 -4.1645E-01
+RPP cf01       -4.5 4.5 -13.25 13.25 -4.2368E-01 -4.2358E-01
+RPP cb02       -4.5 4.5 -13.25 13.25 -3.9942E-01 -3.8508E-01
+RPP cf02       -4.5 4.5 -13.25 13.25 -3.9230E-01 -3.9220E-01
+RPP cb03       -4.5 4.5 -13.25 13.25 -3.6804E-01 -3.5369E-01
+RPP cf03       -4.5 4.5 -13.25 13.25 -3.6092E-01 -3.6082E-01
+RPP cb04       -4.5 4.5 -13.25 13.25 -3.3666E-01 -3.2232E-01
+RPP cf04       -4.5 4.5 -13.25 13.25 -3.2954E-01 -3.2944E-01
+RPP cb05       -4.5 4.5 -13.25 13.25 -3.0528E-01 -2.9093E-01
+RPP cf05       -4.5 4.5 -13.25 13.25 -2.9816E-01 -2.9806E-01
+RPP cb06       -4.5 4.5 -13.25 13.25 -2.7390E-01 -2.5955E-01
+RPP cf06       -4.5 4.5 -13.25 13.25 -2.6678E-01 -2.6668E-01
+RPP cb07       -4.5 4.5 -13.25 13.25 -2.4252E-01 -2.2817E-01
+RPP cf07       -4.5 4.5 -13.25 13.25 -2.3540E-01 -2.3530E-01
+RPP cb08       -4.5 4.5 -13.25 13.25 -2.1114E-01 -1.9679E-01
+RPP cf08       -4.5 4.5 -13.25 13.25 -2.0402E-01 -2.0392E-01
+RPP cb09       -4.5 4.5 -13.25 13.25 -1.7976E-01 -1.6542E-01
+RPP cf09       -4.5 4.5 -13.25 13.25 -1.7264E-01 -1.7254E-01
+RPP cb10       -4.5 4.5 -13.25 13.25 -1.4838E-01 -1.3404E-01
+RPP cf10       -4.5 4.5 -13.25 13.25 -1.4126E-01 -1.4116E-01
+RPP cb11       -4.5 4.5 -13.25 13.25 -1.1700E-01 -1.0265E-01
+RPP cf11       -4.5 4.5 -13.25 13.25 -1.0988E-01 -1.0978E-01
+RPP cb12       -4.5 4.5 -13.25 13.25 -8.5625E-02 -7.1275E-02
+RPP cf12       -4.5 4.5 -13.25 13.25 -7.8500E-02 -7.8400E-02
+RPP cb13       -4.5 4.5 -13.25 13.25 -5.4245E-02 -3.9895E-02
+RPP cf13       -4.5 4.5 -13.25 13.25 -4.7120E-02 -4.7020E-02
+RPP cb14       -4.5 4.5 -13.25 13.25 -2.2865E-02 -8.5150E-03
+RPP cf14       -4.5 4.5 -13.25 13.25 -1.5740E-02 -1.5640E-02
+RPP cb15       -4.5 4.5 -13.25 13.25 8.5150E-03 2.2865E-02
+RPP cf15       -4.5 4.5 -13.25 13.25 1.5640E-02 1.5740E-02
+RPP cb16       -4.5 4.5 -13.25 13.25 3.9895E-02 5.4245E-02
+RPP cf16       -4.5 4.5 -13.25 13.25 4.7020E-02 4.7120E-02
+RPP cb17       -4.5 4.5 -13.25 13.25 7.1275E-02 8.5625E-02
+RPP cf17       -4.5 4.5 -13.25 13.25 7.8400E-02 7.8500E-02
+RPP cb18       -4.5 4.5 -13.25 13.25 1.0265E-01 1.1700E-01
+RPP cf18       -4.5 4.5 -13.25 13.25 1.0978E-01 1.0988E-01
+RPP cb19       -4.5 4.5 -13.25 13.25 1.3404E-01 1.4838E-01
+RPP cf19       -4.5 4.5 -13.25 13.25 1.4116E-01 1.4126E-01
+RPP cb20       -4.5 4.5 -13.25 13.25 1.6542E-01 1.7976E-01
+RPP cf20       -4.5 4.5 -13.25 13.25 1.7254E-01 1.7264E-01
+RPP cb21       -4.5 4.5 -13.25 13.25 1.9679E-01 2.1114E-01
+RPP cf21       -4.5 4.5 -13.25 13.25 2.0392E-01 2.0402E-01
+RPP cb22       -4.5 4.5 -13.25 13.25 2.2817E-01 2.4252E-01
+RPP cf22       -4.5 4.5 -13.25 13.25 2.3530E-01 2.3540E-01
+RPP cb23       -4.5 4.5 -13.25 13.25 2.5955E-01 2.7390E-01
+RPP cf23       -4.5 4.5 -13.25 13.25 2.6668E-01 2.6678E-01
+RPP cb24       -4.5 4.5 -13.25 13.25 2.9093E-01 3.0528E-01
+RPP cf24       -4.5 4.5 -13.25 13.25 2.9806E-01 2.9816E-01
+RPP cb25       -4.5 4.5 -13.25 13.25 3.2232E-01 3.3666E-01
+RPP cf25       -4.5 4.5 -13.25 13.25 3.2944E-01 3.2954E-01
+RPP cb26       -4.5 4.5 -13.25 13.25 3.5369E-01 3.6804E-01
+RPP cf26       -4.5 4.5 -13.25 13.25 3.6082E-01 3.6092E-01
+RPP cb27       -4.5 4.5 -13.25 13.25 3.8508E-01 3.9942E-01
+RPP cf27       -4.5 4.5 -13.25 13.25 3.9220E-01 3.9230E-01
+RPP cb28       -4.5 4.5 -13.25 13.25 4.1645E-01 4.3080E-01
+RPP cf28       -4.5 4.5 -13.25 13.25 4.2358E-01 4.2368E-01
+$end_transform
+END
+* Black hole
+BLKBODY      5 +blkbody -void
+* Void around
+VOID         5 +void -pbody
+* Pouch case
+POUCH        5 +pbody -cavity
+CAVITY       5 +cavity
+               -ab01 -ab02 -ab03 -ab04 -ab05
+               -ab06 -ab07 -ab08 -ab09 -ab10
+               -ab11 -ab12 -ab13 -ab14 -ab15
+               -ab16 -ab17 -ab18 -ab19 -ab20
+               -ab21 -ab22 -ab23 -ab24 -ab25
+               -ab26 -ab27 -ab28 -ab29
+               -cb01 -cb02 -cb03 -cb04 -cb05
+               -cb06 -cb07 -cb08 -cb09 -cb10
+               -cb11 -cb12 -cb13 -cb14 -cb15
+               -cb16 -cb17 -cb18 -cb19 -cb20
+               -cb21 -cb22 -cb23 -cb24 -cb25
+               -cb26 -cb27 -cb28
+               -hole
+HOLE         5 +hole
+* 01st anode body
+AB01         5 +ab01 -af01 -hole
+* 01st anode foil
+AF01         5 +af01 -hole
+* 03rd anode foil
+AB02         5 +ab02 -af02 -hole
+* 02nd anode foil
+AF02         5 +af02 -hole
+* 03rd anode body
+AB03         5 +ab03 -af03 -hole
+* 03rd anode foil
+AF03         5 +af03 -hole
+* 05th anode foil
+AB04         5 +ab04 -af04 -hole
+* 04th anode foil
+AF04         5 +af04 -hole
+* 05th anode body
+AB05         5 +ab05 -af05 -hole
+* 05th anode foil
+AF05         5 +af05 -hole
+* 06th anode body
+AB06         5 +ab06 -af06 -hole
+* 06th anode foil
+AF06         5 +af06 -hole
+* 07th anode body
+AB07         5 +ab07 -af07 -hole
+* 07th anode foil
+AF07         5 +af07 -hole
+* 08th anode body
+AB08         5 +ab08 -af08 -hole
+* 08th anode foil
+AF08         5 +af08 -hole
+* 09th anode body
+AB09         5 +ab09 -af09 -hole
+* 09th anode foil
+AF09         5 +af09 -hole
+* 10th anode body
+AB10         5 +ab10 -af10 -hole
+* 10th anode foil
+AF10         5 +af10 -hole
+* 11th anode body
+AB11         5 +ab11 -af11 -hole
+* 11th anode foil
+AF11         5 +af11 -hole
+* 12th anode body
+AB12         5 +ab12 -af12 -hole
+* 12th anode foil
+AF12         5 +af12 -hole
+* 13th anode body
+AB13         5 +ab13 -af13 -hole
+* 13th anode foil
+AF13         5 +af13 -hole
+* 14th anode body
+AB14         5 +ab14 -af14 -hole
+* 14th anode foil
+AF14         5 +af14 -hole
+* 15th anode body
+AB15         5 +ab15 -af15 -hole
+* 15th anode foil
+AF15         5 +af15 -hole
+* 16th anode body
+AB16         5 +ab16 -af16 -hole
+* 16th anode foil
+AF16         5 +af16 -hole
+* 17th anode body
+AB17         5 +ab17 -af17 -hole
+* 17th anode foil
+AF17         5 +af17 -hole
+* 18th anode body
+AB18         5 +ab18 -af18 -hole
+* 18th anode foil
+AF18         5 +af18 -hole
+* 19th anode body
+AB19         5 +ab19 -af19 -hole
+* 19th anode foil
+AF19         5 +af19 -hole
+* 20th anode body
+AB20         5 +ab20 -af20 -hole
+* 20th anode foil
+AF20         5 +af20 -hole
+* 21th anode body
+AB21         5 +ab21 -af21 -hole
+* 21th anode foil
+AF21         5 +af21 -hole
+* 22th anode body
+AB22         5 +ab22 -af22 -hole
+* 22th anode foil
+AF22         5 +af22 -hole
+* 23th anode body
+AB23         5 +ab23 -af23 -hole
+* 23th anode foil
+AF23         5 +af23 -hole
+* 24th anode body
+AB24         5 +ab24 -af24 -hole
+* 24th anode foil
+AF24         5 +af24 -hole
+* 25th anode body
+AB25         5 +ab25 -af25 -hole
+* 25th anode foil
+AF25         5 +af25 -hole
+* 26th anode body
+AB26         5 +ab26 -af26 -hole
+* 26th anode foil
+AF26         5 +af26 -hole
+* 27th anode body
+AB27         5 +ab27 -af27 -hole
+* 27th anode foil
+AF27         5 +af27 -hole
+* 28th anode body
+AB28         5 +ab28 -af28 -hole
+* 28th anode foil
+AF28         5 +af28 -hole
+* 29th anode body
+AB29         5 +ab29 -af29 -hole
+* 29th anode foil
+AF29         5 +af29 -hole
+* 01st cathode body
+CB01         5 +cb01 -cf01 -hole
+* 01st cathode foil
+CF01         5 +cf01 -hole
+* 02nd cathode body
+CB02         5 +cb02 -cf02 -hole
+* 02nd cathode foil
+CF02         5 +cf02 -hole
+* 03rd cathode body
+CB03         5 +cb03 -cf03 -hole
+* 03rd cathode foil
+CF03         5 +cf03 -hole
+* 04th cathode body
+CB04         5 +cb04 -cf04 -hole
+* 04th cathode foil
+CF04         5 +cf04 -hole
+* 05th cathode body
+CB05         5 +cb05 -cf05 -hole
+* 05th cathode foil
+CF05         5 +cf05 -hole
+* 06th cathode body
+CB06         5 +cb06 -cf06 -hole
+* 06th cathode foil
+CF06         5 +cf06 -hole
+* 07th cathode body
+CB07         5 +cb07 -cf07 -hole
+* 07th cathode foil
+CF07         5 +cf07 -hole
+* 08th cathode body
+CB08         5 +cb08 -cf08 -hole
+* 08th cathode foil
+CF08         5 +cf08 -hole
+* 9th cathode body
+CB09         5 +cb09 -cf09 -hole
+* 09th cathode foil
+CF09         5 +cf09 -hole
+* 10th cathode body
+CB10         5 +cb10 -cf10 -hole
+* 10th cathode foil
+CF10         5 +cf10 -hole
+* 11th cathode body
+CB11         5 +cb11 -cf11 -hole
+* 11th cathode foil
+CF11         5 +cf11 -hole
+* 12th cathode body
+CB12         5 +cb12 -cf12 -hole
+* 12th cathode foil
+CF12         5 +cf12 -hole
+* 13th cathode body
+CB13         5 +cb13 -cf13 -hole
+* 13th cathode foil
+CF13         5 +cf13 -hole
+* 14th cathode body
+CB14         5 +cb14 -cf14 -hole
+* 14th cathode foil
+CF14         5 +cf14 -hole
+* 15th cathode body
+CB15         5 +cb15 -cf15 -hole
+* 15th cathode foil
+CF15         5 +cf15 -hole
+* 16th cathode body
+CB16         5 +cb16 -cf16 -hole
+* 16th cathode foil
+CF16         5 +cf16 -hole
+* 17th cathode body
+CB17         5 +cb17 -cf17 -hole
+* 17th cathode foil
+CF17         5 +cf17 -hole
+* 18th cathode body
+CB18         5 +cb18 -cf18 -hole
+* 18th cathode foil
+CF18         5 +cf18 -hole
+* 19th cathode body
+CB19         5 +cb19 -cf19 -hole
+* 19th cathode foil
+CF19         5 +cf19 -hole
+* 20th cathode body
+CB20         5 +cb20 -cf20 -hole
+* 20th cathode foil
+CF20         5 +cf20 -hole
+* 21th cathode body
+CB21         5 +cb21 -cf21 -hole
+* 21th cathode foil
+CF21         5 +cf21 -hole
+* 22th cathode body
+CB22         5 +cb22 -cf22 -hole
+* 22th cathode foil
+CF22         5 +cf22 -hole
+* 23th cathode body
+CB23         5 +cb23 -cf23 -hole
+* 23th cathode foil
+CF23         5 +cf23 -hole
+* 24th cathode body
+CB24         5 +cb24 -cf24 -hole
+* 24th cathode foil
+CF24         5 +cf24 -hole
+* 25th cathode body
+CB25         5 +cb25 -cf25 -hole
+* 25th cathode foil
+CF25         5 +cf25 -hole
+* 26th cathode body
+CB26         5 +cb26 -cf26 -hole
+* 26th cathode foil
+CF26         5 +cf26 -hole
+* 27th cathode body
+CB27         5 +cb27 -cf27 -hole
+* 27th cathode foil
+CF27         5 +cf27 -hole
+* 28th cathode body
+CB28         5 +cb28 -cf28 -hole
+* 28th cathode foil
+CF28         5 +cf28 -hole
+END
+GEOEND
+MATERIAL                             4.0                              LCO
+MATERIAL           3                 2.1                              LITHIUM
+MATERIAL          27                 2.5                            59COBALT
+COMPOUND         1.0   LITHIUM       2.0    OXYGEN       1.0    COBALTLCO
+MATERIAL           6                 1.6                            12GRAPHITE
+COMPOUND         1.0    CARBON                                        GRAPHITE
+* ..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA      VACUUM      VOID
+ASSIGNMA    POLYETHY     POUCH
+ASSIGNMA      VACUUM    CAVITY
+ASSIGNMA        IRON      HOLE
+ASSIGNMA         LCO      CB01      CB28         2
+ASSIGNMA    ALUMINUM      CF01      CF28         2
+ASSIGNMA    GRAPHITE      AB01      AB29         2
+ASSIGNMA      COPPER      AF01      AF29         2
+USRBIN            10    PHOTON       -22        20        20       5.2IMAGE
+USRBIN           -20       -20         5       200       200         1 &
+* Set the random number seed
+RANDOMIZ         1.0
+* Set the number of primary histories to be simulated in the run
+START      250000000
+STOP

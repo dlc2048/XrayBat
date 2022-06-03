@@ -1,0 +1,6 @@
+*list of file extension that will be saved.
+.22
+.log
+.out
+.err
+.txt
