@@ -1,0 +1,57 @@
+1NUMBER OF BEAM       NUMBER OF BEAM        APPROXIMATE NUMBER    AVERAGE TIME USED     TIME LEFT (RESERVED   NUMBER OF STARS
+ PARTICLES HANDLED    PARTICLES LEFT        OF BEAM PARTICLES     BY A BEAM PARTICLE     10000.0 SECONDS      CREATED
+                                            THAT CAN STILL BE                           FOR PRINTOUT)
+                                            HANDLED
+
+ NEXT SEEDS:       0       0       0       0       0       0   181CD    3039       0       0
+          1             249999999             249999999             7.7009201E-05         1.0000000E+30                 0       
+ NEXT SEEDS:       4       0       0       0       0       0   181CD    3039       0       0
+    5000000             245000000             245000000             2.7902847E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 17702D7       0       0       0       0       0   181CD    3039       0       0
+   10000000             240000000             240000000             2.7878746E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 2EDDE11       0       0       0       0       0   181CD    3039       0       0
+   15000000             235000000             235000000             2.7884274E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 4654139       0       0       0       0       0   181CD    3039       0       0
+   20000000             230000000             230000000             2.7883523E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 5DC2EFB       0       0       0       0       0   181CD    3039       0       0
+   25000000             225000000             225000000             2.7887189E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 75363BD       0       0       0       0       0   181CD    3039       0       0
+   30000000             220000000             220000000             2.7879390E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 8CA9F36       0       0       0       0       0   181CD    3039       0       0
+   35000000             215000000             215000000             2.7873517E-05         1.0000000E+30                 0       
+ NEXT SEEDS: A418AC4       0       0       0       0       0   181CD    3039       0       0
+   40000000             210000000             210000000             2.7874112E-05         1.0000000E+30                 0       
+ NEXT SEEDS: BB88CDD       0       0       0       0       0   181CD    3039       0       0
+   45000000             205000000             205000000             2.7872949E-05         1.0000000E+30                 0       
+ NEXT SEEDS: D2FBBD3       0       0       0       0       0   181CD    3039       0       0
+   50000000             200000000             200000000             2.7877700E-05         1.0000000E+30                 0       
+ NEXT SEEDS: EA6C99D       0       0       0       0       0   181CD    3039       0       0
+   55000000             195000000             195000000             2.7878768E-05         1.0000000E+30                 0       
+ NEXT SEEDS:101DE5EE       0       0       0       0       0   181CD    3039       0       0
+   60000000             190000000             190000000             2.7878218E-05         1.0000000E+30                 0       
+ NEXT SEEDS:11950BA5       0       0       0       0       0   181CD    3039       0       0
+ Geofar: Particle in region    38 (cell #    0)
+  in position   2.151926341E+00  1.852849430E+01  6.280999999E-02
+  is now causing trouble, requesting a step of  1.089854931E+00 cm
+  to direction  5.988049046E-01 -3.972365435E-01 -6.954392962E-01
+  end position  2.804536819E+00  1.809556410E+01 -6.951179459E-01
+  R2:  1.865303965E+01 R3:  1.865314540E+01 cm  error count:  0
+  X*U   (2D): -6.071610985E+00 X*U   (3D): -6.115291528E+00 cm
+  X*UOLD(2D):  4.630747176E+00 X*UOLD(3D):  4.684540121E+00 cm
+  Kloop:  124383727, Irsave:     38, Irsav2:     38, error code:  -3 Nfrom:  5000
+  old direction -4.209745269E-01  2.988183098E-01  8.564391779E-01, lagain, lstnew, lsense, lsnsct  F  F  F  T
+  Particle index    7 total energy   5.826783287E-05 GeV  Nsurf    0
+ We succeeded in saving the particle:  current region is n.    39 (cell #    0)
+   65000000             185000000             185000000             2.7876316E-05         1.0000000E+30                 0       
+ NEXT SEEDS:130BF01A       0       0       0       0       0   181CD    3039       0       0
+   70000000             180000000             180000000             2.7872290E-05         1.0000000E+30                 0       
+ NEXT SEEDS:1482B21C       0       0       0       0       0   181CD    3039       0       0
+   75000000             175000000             175000000             2.7874121E-05         1.0000000E+30                 0       
+ NEXT SEEDS:15F9C81D       0       0       0       0       0   181CD    3039       0       0
+   80000000             170000000             170000000             2.7871823E-05         1.0000000E+30                 0       
+ NEXT SEEDS:1770D268       0       0       0       0       0   181CD    3039       0       0
+  *** Emfgeo: Ncoun  2000000000
+   85000000             165000000             165000000             2.7873658E-05         1.0000000E+30                 0       
+ NEXT SEEDS:18E7BBE4       0       0       0       0       0   181CD    3039       0       0
+   90000000             160000000             160000000             2.7875358E-05         1.0000000E+30                 0       
+ NEXT SEEDS:1A5EC047       0       0       0       0       0   181CD    3039       0       0
