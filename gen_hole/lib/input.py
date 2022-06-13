@@ -70,15 +70,15 @@ class Input:
         zmargin = 0.4
 
         while True:
-            r = np.random.normal() + 0.4
-            if 0.1 < r < 0.8:
+            r = np.random.normal() + 0.6
+            if 0.4 < r < 1.2:
                 break
         xmargin -= r
         ymargin -= r
 
         while True:
-            h = np.random.normal() + 0.2
-            if 0.05 < h < 0.2:
+            h = np.random.normal() + 0.25
+            if 0.1 < h < 0.4:
                 break
         zmargin = h / 2
 

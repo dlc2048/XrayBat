@@ -1,0 +1,64 @@
+1NUMBER OF BEAM       NUMBER OF BEAM        APPROXIMATE NUMBER    AVERAGE TIME USED     TIME LEFT (RESERVED   NUMBER OF STARS
+ PARTICLES HANDLED    PARTICLES LEFT        OF BEAM PARTICLES     BY A BEAM PARTICLE     10000.0 SECONDS      CREATED
+                                            THAT CAN STILL BE                           FOR PRINTOUT)
+                                            HANDLED
+
+ NEXT SEEDS:       0       0       0       0       0       0   181CD    3039       0       0
+          1             249999999             249999999             8.2969666E-05         1.0000000E+30                 0       
+ NEXT SEEDS:       4       0       0       0       0       0   181CD    3039       0       0
+    5000000             245000000             245000000             2.8596856E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 176C3A9       0       0       0       0       0   181CD    3039       0       0
+   10000000             240000000             240000000             2.8673038E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 2ED9D6F       0       0       0       0       0   181CD    3039       0       0
+   15000000             235000000             235000000             2.8700110E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 464AB7D       0       0       0       0       0   181CD    3039       0       0
+ Geofar: Particle in region    16 (cell #    0)
+  in position  -1.366377824E+01  8.549363626E+00 -2.896400000E-01
+  is now causing trouble, requesting a step of  2.235399867E+00 cm
+  to direction -2.924756597E-01  9.474679951E-01 -1.294696366E-01
+  end position -1.431757829E+01  1.066733346E+01 -5.790564084E-01
+  R2:  1.611801645E+01 R3:  1.612061865E+01 cm  error count:  0
+  X*U   (2D):  1.209657097E+01 X*U   (3D):  1.213407055E+01 cm
+  X*UOLD(2D): -6.811110643E+00 X*UOLD(3D): -7.042827679E+00 cm
+  Kloop:   40178604, Irsave:     16, Irsav2:     16, error code:  -3 Nfrom:  5000
+  old direction  1.323198821E-01 -5.852039211E-01  8.000173870E-01, lagain, lstnew, lsense, lsnsct  F  F  F  T
+  Particle index    7 total energy   6.193569818E-05 GeV  Nsurf    0
+ We succeeded in saving the particle:  current region is n.     4 (cell #    0)
+   20000000             230000000             230000000             2.8656131E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 5DB7EB7       0       0       0       0       0   181CD    3039       0       0
+   25000000             225000000             225000000             2.8628359E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 7525E45       0       0       0       0       0   181CD    3039       0       0
+ Geofar: Particle in region    58 (cell #    0)
+  in position  -2.210521193E+00  9.270125164E+00  3.766100000E-01
+  is now causing trouble, requesting a step of  3.971231741E+00 cm
+  to direction -1.985033966E-01  3.011905406E-01 -9.326739300E-01
+  end position -2.998824182E+00  1.046622260E+01 -3.327254315E+00
+  R2:  9.530038012E+00 R3:  9.537476584E+00 cm  error count:  0
+  X*U   (2D):  3.230869975E+00 X*U   (3D):  2.879615646E+00 cm
+  X*UOLD(2D): -1.425869553E+00 X*UOLD(3D): -1.053881158E+00 cm
+  Kloop:   56814822, Irsave:     58, Irsav2:     58, error code:  -3 Nfrom:  5000
+  old direction  7.828129116E-02 -1.351467297E-01  9.877284044E-01, lagain, lstnew, lsense, lsnsct  F  F  F  T
+  Particle index    7 total energy   5.424857077E-05 GeV  Nsurf    0
+ We succeeded in saving the particle:  current region is n.    59 (cell #    0)
+   30000000             220000000             220000000             2.8621130E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 8C949FE       0       0       0       0       0   181CD    3039       0       0
+   35000000             215000000             215000000             2.8605040E-05         1.0000000E+30                 0       
+ NEXT SEEDS: A404A54       0       0       0       0       0   181CD    3039       0       0
+   40000000             210000000             210000000             2.8593343E-05         1.0000000E+30                 0       
+ NEXT SEEDS: BB75463       0       0       0       0       0   181CD    3039       0       0
+   45000000             205000000             205000000             2.8586983E-05         1.0000000E+30                 0       
+ NEXT SEEDS: D2E7F3B       0       0       0       0       0   181CD    3039       0       0
+  Oepsmp-> sampling gave unphysical tail: Z=           1  shell=           1  Function=           3
+  Oepsmp: p_sampled/(alpha x elmass)=   12.939999581151502       p_max/(alpha x elmass)=   10.699999999999999     
+   50000000             200000000             200000000             2.8580577E-05         1.0000000E+30                 0       
+ NEXT SEEDS: EA546FD       0       0       0       0       0   181CD    3039       0       0
+   55000000             195000000             195000000             2.8573416E-05         1.0000000E+30                 0       
+ NEXT SEEDS:101C128C       0       0       0       0       0   181CD    3039       0       0
+   60000000             190000000             190000000             2.8566837E-05         1.0000000E+30                 0       
+ NEXT SEEDS:11931383       0       0       0       0       0   181CD    3039       0       0
+   65000000             185000000             185000000             2.8567981E-05         1.0000000E+30                 0       
+ NEXT SEEDS:130A06D0       0       0       0       0       0   181CD    3039       0       0
+   70000000             180000000             180000000             2.8562635E-05         1.0000000E+30                 0       
+ NEXT SEEDS:1480F758       0       0       0       0       0   181CD    3039       0       0
+   75000000             175000000             175000000             2.8557385E-05         1.0000000E+30                 0       
+ NEXT SEEDS:15F7E0C7       0       0       0       0       0   181CD    3039       0       0

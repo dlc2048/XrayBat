@@ -1,0 +1,50 @@
+1NUMBER OF BEAM       NUMBER OF BEAM        APPROXIMATE NUMBER    AVERAGE TIME USED     TIME LEFT (RESERVED   NUMBER OF STARS
+ PARTICLES HANDLED    PARTICLES LEFT        OF BEAM PARTICLES     BY A BEAM PARTICLE     10000.0 SECONDS      CREATED
+                                            THAT CAN STILL BE                           FOR PRINTOUT)
+                                            HANDLED
+
+ NEXT SEEDS:       0       0       0       0       0       0   181CD    3039       0       0
+          1             249999999             249999999             7.7009201E-05         1.0000000E+30                 0       
+ NEXT SEEDS:       4       0       0       0       0       0   181CD    3039       0       0
+ Geofar: Particle in region    25 (cell #    0)
+  in position  -1.148535782E+01 -5.335810845E+00 -1.254700000E-01
+  is now causing trouble, requesting a step of  2.182223414E+00 cm
+  to direction  4.353978700E-01  1.998550205E-01 -8.777736984E-01
+  end position -1.053522239E+01 -4.899682539E+00 -2.040968317E+00
+  R2:  1.266429317E+01 R3:  1.266491470E+01 cm  error count:  0
+  X*U   (2D): -6.067088916E+00 X*U   (3D): -5.956954650E+00 cm
+  X*UOLD(2D):  5.256556897E+00 X*UOLD(3D):  5.149566442E+00 cm
+  Kloop:    8063192, Irsave:     25, Irsav2:     25, error code:  -3 Nfrom:  5000
+  old direction -2.428015577E-01 -4.625152953E-01  8.527174240E-01, lagain, lstnew, lsense, lsnsct  F  F  F  T
+  Particle index    7 total energy   5.406883082E-05 GeV  Nsurf    0
+ We succeeded in saving the particle:  current region is n.    26 (cell #    0)
+    5000000             245000000             245000000             2.6362438E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 17724AA       0       0       0       0       0   181CD    3039       0       0
+   10000000             240000000             240000000             2.6364335E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 2EE2018       0       0       0       0       0   181CD    3039       0       0
+   15000000             235000000             235000000             2.6372590E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 4654932       0       0       0       0       0   181CD    3039       0       0
+   20000000             230000000             230000000             2.6368383E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 5DC46C9       0       0       0       0       0   181CD    3039       0       0
+   25000000             225000000             225000000             2.6370773E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 753A6E5       0       0       0       0       0   181CD    3039       0       0
+   30000000             220000000             220000000             2.6369946E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 8CB022F       0       0       0       0       0   181CD    3039       0       0
+   35000000             215000000             215000000             2.6366538E-05         1.0000000E+30                 0       
+ NEXT SEEDS: A423005       0       0       0       0       0   181CD    3039       0       0
+   40000000             210000000             210000000             2.6361950E-05         1.0000000E+30                 0       
+ NEXT SEEDS: BB8FEF4       0       0       0       0       0   181CD    3039       0       0
+   45000000             205000000             205000000             2.6364241E-05         1.0000000E+30                 0       
+ NEXT SEEDS: D3012A6       0       0       0       0       0   181CD    3039       0       0
+   50000000             200000000             200000000             2.6366384E-05         1.0000000E+30                 0       
+ NEXT SEEDS: EA74919       0       0       0       0       0   181CD    3039       0       0
+   55000000             195000000             195000000             2.6372698E-05         1.0000000E+30                 0       
+ NEXT SEEDS:101E6666       0       0       0       0       0   181CD    3039       0       0
+   60000000             190000000             190000000             2.6367281E-05         1.0000000E+30                 0       
+ NEXT SEEDS:11955F03       0       0       0       0       0   181CD    3039       0       0
+   65000000             185000000             185000000             2.6367287E-05         1.0000000E+30                 0       
+ NEXT SEEDS:130C90D7       0       0       0       0       0   181CD    3039       0       0
+   70000000             180000000             180000000             2.6366101E-05         1.0000000E+30                 0       
+ NEXT SEEDS:14836EC6       0       0       0       0       0   181CD    3039       0       0
+   75000000             175000000             175000000             2.6369292E-05         1.0000000E+30                 0       
+ NEXT SEEDS:15FA9809       0       0       0       0       0   181CD    3039       0       0
