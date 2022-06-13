@@ -1,0 +1,32 @@
+1NUMBER OF BEAM       NUMBER OF BEAM        APPROXIMATE NUMBER    AVERAGE TIME USED     TIME LEFT (RESERVED   NUMBER OF STARS
+ PARTICLES HANDLED    PARTICLES LEFT        OF BEAM PARTICLES     BY A BEAM PARTICLE     10000.0 SECONDS      CREATED
+                                            THAT CAN STILL BE                           FOR PRINTOUT)
+                                            HANDLED
+
+ NEXT SEEDS:       0       0       0       0       0       0   181CD    3039       0       0
+          1             249999999             249999999             8.8930130E-05         1.0000000E+30                 0       
+ NEXT SEEDS:       4       0       0       0       0       0   181CD    3039       0       0
+    5000000             245000000             245000000             2.7735953E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 1774135       0       0       0       0       0   181CD    3039       0       0
+   10000000             240000000             240000000             2.7703304E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 2EE4BE6       0       0       0       0       0   181CD    3039       0       0
+   15000000             235000000             235000000             2.7696370E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 465A864       0       0       0       0       0   181CD    3039       0       0
+   20000000             230000000             230000000             2.7678404E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 5DCF374       0       0       0       0       0   181CD    3039       0       0
+   25000000             225000000             225000000             2.7681473E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 754308A       0       0       0       0       0   181CD    3039       0       0
+   30000000             220000000             220000000             2.7668273E-05         1.0000000E+30                 0       
+ NEXT SEEDS: 8CB1578       0       0       0       0       0   181CD    3039       0       0
+   35000000             215000000             215000000             2.7672442E-05         1.0000000E+30                 0       
+ NEXT SEEDS: A427709       0       0       0       0       0   181CD    3039       0       0
+   40000000             210000000             210000000             2.7675667E-05         1.0000000E+30                 0       
+ NEXT SEEDS: BB9C514       0       0       0       0       0   181CD    3039       0       0
+   45000000             205000000             205000000             2.7674655E-05         1.0000000E+30                 0       
+ NEXT SEEDS: D31197B       0       0       0       0       0   181CD    3039       0       0
+  Oepsmp-> sampling gave unphysical tail: Z=           1  shell=           1  Function=           3
+  Oepsmp: p_sampled/(alpha x elmass)=   12.939999581151502       p_max/(alpha x elmass)=   10.699999999999999     
+   50000000             200000000             200000000             2.7710578E-05         1.0000000E+30                 0       
+ NEXT SEEDS: EA82BF6       0       0       0       0       0   181CD    3039       0       0
+   55000000             195000000             195000000             2.7732812E-05         1.0000000E+30                 0       
+ NEXT SEEDS:101F3D89       0       0       0       0       0   181CD    3039       0       0
